@@ -1,0 +1,21 @@
+.ground-line {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    border-color: black;
+}
+
+.window {
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 60%;
+    max-height: 60%;
+    margin: 10px;
+    border: black solid 1px;
+    position: absolute;
+    left: 20%;
+}
+
+#root {
+    display: flex;
+}
