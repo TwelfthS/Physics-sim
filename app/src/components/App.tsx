@@ -5,7 +5,7 @@ import Falling from './Falling'
 function App() {
     return <>
         <Navbar />
-        <Falling />
+        <Falling height={200}/>
         </>
 }
 

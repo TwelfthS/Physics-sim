@@ -1,8 +1,44 @@
+
+
 .ground-line {
     position: absolute;
-    top: 75%;
+    top: 0;
     width: 100%;
     border-color: black;
+    margin: 0;
+}
+
+.ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transform: translate(-50%, -100%);
+    left: 50%;
+    animation: falling 1s infinite ease-in;
+}
+
+@keyframes falling {
+    0% {
+        top: 0;
+    }  
+    100% {
+        top: 100%;
+    }
+}
+
+.ball-to-ground {
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    width: 100%;
+}
+
+.ground {
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
 }
 
 .window {
